@@ -1,0 +1,148 @@
+{
+  "motivationalVideos": [
+    {
+      "id": 1,
+      "title": "Rise Above Challenges",
+      "description": "Powerful motivation for overcoming life's obstacles and building resilience",
+      "duration": "5:32",
+      "category": "Personal Growth",
+      "tags": ["motivation", "resilience", "strength", "mindset"],
+      "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+      "videoUrl": "placeholder-video-1",
+      "transcript": "Life will test you, but every challenge is an opportunity to grow stronger...",
+      "likes": 2450,
+      "views": 15680,
+      "uploadDate": "2024-12-15"
+    },
+    {
+      "id": 2,
+      "title": "Inner Peace Meditation",
+      "description": "Guided meditation for finding calm and balance in daily life",
+      "duration": "12:15",
+      "category": "Meditation",
+      "tags": ["meditation", "peace", "mindfulness", "relaxation"],
+      "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+      "videoUrl": "placeholder-video-2",
+      "transcript": "Close your eyes and breathe deeply. Feel the calm washing over you...",
+      "likes": 3120,
+      "views": 22340,
+      "uploadDate": "2024-12-10"
+    },
+    {
+      "id": 3,
+      "title": "Study Success Strategies",
+      "description": "Effective techniques for better focus and academic achievement",
+      "duration": "8:45",
+      "category": "Education",
+      "tags": ["study", "focus", "learning", "productivity"],
+      "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop",
+      "videoUrl": "placeholder-video-3",
+      "transcript": "Transform your study habits with these proven techniques...",
+      "likes": 1890,
+      "views": 12560,
+      "uploadDate": "2024-12-08"
+    },
+    {
+      "id": 4,
+      "title": "Anxiety Relief Techniques",
+      "description": "Practical methods to manage anxiety and stress in college life",
+      "duration": "7:20",
+      "category": "Mental Health",
+      "tags": ["anxiety", "stress", "coping", "techniques"],
+      "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+      "videoUrl": "placeholder-video-4",
+      "transcript": "When anxiety strikes, remember these simple but powerful techniques...",
+      "likes": 4200,
+      "views": 31450,
+      "uploadDate": "2024-12-05"
+    },
+    {
+      "id": 5,
+      "title": "Building Confidence",
+      "description": "Boost your self-esteem and develop unshakeable confidence",
+      "duration": "6:18",
+      "category": "Personal Growth",
+      "tags": ["confidence", "self-esteem", "growth", "empowerment"],
+      "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+      "videoUrl": "placeholder-video-5",
+      "transcript": "True confidence comes from within. Here's how to build it...",
+      "likes": 2780,
+      "views": 18920,
+      "uploadDate": "2024-12-01"
+    },
+    {
+      "id": 6,
+      "title": "Sleep Better Tonight",
+      "description": "Science-backed methods for improving sleep quality and duration",
+      "duration": "9:12",
+      "category": "Wellness",
+      "tags": ["sleep", "health", "wellness", "recovery"],
+      "thumbnail": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&h=300&fit=crop",
+      "videoUrl": "placeholder-video-6",
+      "transcript": "Quality sleep is the foundation of mental health. Learn how to achieve it...",
+      "likes": 3650,
+      "views": 25780,
+      "uploadDate": "2024-11-28"
+    },
+    {
+      "id": 7,
+      "title": "Mindful Breathing Exercise",
+      "description": "Simple breathing techniques for instant stress relief",
+      "duration": "4:30",
+      "category": "Meditation",
+      "tags": ["breathing", "mindfulness", "stress-relief", "quick"],
+      "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+      "videoUrl": "placeholder-video-7",
+      "transcript": "In just 4 minutes, transform your state of mind with conscious breathing...",
+      "likes": 1920,
+      "views": 14230,
+      "uploadDate": "2024-11-25"
+    },
+    {
+      "id": 8,
+      "title": "Social Connection Tips",
+      "description": "Building meaningful relationships and overcoming social anxiety",
+      "duration": "11:05",
+      "category": "Social Skills",
+      "tags": ["social", "relationships", "connection", "communication"],
+      "thumbnail": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop",
+      "videoUrl": "placeholder-video-8",
+      "transcript": "Human connection is vital for mental health. Here's how to build it...",
+      "likes": 2340,
+      "views": 16890,
+      "uploadDate": "2024-11-20"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Personal Growth",
+      "color": "#8B5CF6",
+      "description": "Videos focused on self-improvement and personal development"
+    },
+    {
+      "name": "Meditation",
+      "color": "#10B981",
+      "description": "Guided meditations and mindfulness practices"
+    },
+    {
+      "name": "Education",
+      "color": "#F59E0B",
+      "description": "Study tips and academic success strategies"
+    },
+    {
+      "name": "Mental Health",
+      "color": "#EF4444",
+      "description": "Mental health awareness and coping strategies"
+    },
+    {
+      "name": "Wellness",
+      "color": "#06B6D4",
+      "description": "Physical and mental wellness content"
+    },
+    {
+      "name": "Social Skills",
+      "color": "#84CC16",
+      "description": "Improving social connections and communication"
+    }
+  ]
+}

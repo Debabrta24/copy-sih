@@ -1,0 +1,27 @@
+GEMINI API KEY SETUP INSTRUCTIONS
+=====================================
+
+To enable the Gemini AI service for custom personalities:
+
+1. Get a Gemini API key:
+   - Go to https://aistudio.google.com/app/apikey
+   - Sign in with your Google account
+   - Click "Create API Key"
+   - Copy the generated key
+
+2. Add the API key to your environment:
+   - In Replit, go to the Secrets tab (lock icon in sidebar)
+   - Add a new secret with key: GEMINI_API_KEY
+   - Paste your API key as the value
+   - Save the secret
+
+3. Alternative method - Update config file:
+   - Open config/api-config.json
+   - Replace "YOUR_GEMINI_API_KEY_HERE" with your actual API key
+   - Save the file
+
+4. Restart the application:
+   - The app will automatically detect the API key
+   - Custom AI personalities will start working properly
+
+Note: Without the API key, the app will use fallback responses for custom personalities.

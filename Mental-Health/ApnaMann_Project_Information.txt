@@ -1,0 +1,283 @@
+APNAMANN - MENTAL HEALTH PLATFORM
+===================================
+
+PROJECT OVERVIEW
+-----------------
+ApnaMann is a comprehensive mental health platform designed specifically for Indian college students. The application provides AI-powered psychological first aid, mental health screening tools, counselor booking, peer support forums, educational resources, and crisis intervention capabilities.
+
+TECHNICAL ARCHITECTURE
+-----------------------
+
+Frontend Technology Stack:
+- React 18 with TypeScript for type safety
+- shadcn/ui components built on Radix UI primitives
+- TailwindCSS for styling and responsive design
+- React Query for server state management
+- Wouter for lightweight client-side routing
+- React Hook Form with Zod validation
+
+Backend Technology Stack:
+- Node.js with Express.js framework
+- WebSocket support for real-time chat functionality
+- PostgreSQL database using Neon serverless
+- Drizzle ORM for type-safe database operations
+- Session-based authentication with secure cookies
+
+CORE FEATURES
+-------------
+
+1. AI-Powered Chatbot
+   - GPT-5 model integration for psychological first aid
+   - Contextual mental health support
+   - Crisis detection and automatic intervention
+
+2. Mental Health Screening
+   - PHQ-9 Depression screening questionnaire
+   - GAD-7 Generalized anxiety disorder assessment
+   - Automated risk assessment and intervention
+
+3. Counselor Services
+   - Professional therapist booking system
+   - Appointment scheduling and management
+   - Video call integration for remote sessions
+
+4. Peer Support Community
+   - Discussion forums for student interactions
+   - Peer-to-peer calling functionality
+   - Anonymous support groups
+
+5. Educational Resources
+   - Wellness guides and articles
+   - Stress management techniques
+   - Study skills and time management resources
+
+6. Crisis Intervention
+   - 24/7 crisis detection system
+   - Emergency contact protocols
+   - Immediate response mechanisms
+
+7. Wellness Tools
+   - Daily mood tracking and visualization
+   - Sleep cycle optimization guides
+   - Mindfulness and meditation resources
+   - Yoga and exercise routines
+
+8. Entertainment & Relaxation
+   - Curated music for mental wellness
+   - Motivational videos and content
+   - Stress-relief games and activities
+   - Live meditation and wellness sessions
+
+DATABASE SCHEMA
+---------------
+
+Users Table:
+- Personal information and preferences
+- Institution and academic details
+- Authentication credentials
+- Privacy settings
+
+Screening Assessments:
+- PHQ-9 and GAD-7 responses
+- Risk scores and recommendations
+- Assessment history and trends
+
+Appointments:
+- Counselor booking details
+- Session scheduling
+- Payment and insurance information
+
+Forum Posts & Replies:
+- Community discussion content
+- User interactions and engagement
+- Moderation and safety features
+
+Mood Tracking:
+- Daily mood entries
+- Emotional state patterns
+- Trigger identification
+
+Crisis Management:
+- Emergency contact information
+- Crisis event logs
+- Response protocols
+
+Chat Sessions:
+- AI conversation history
+- User interaction patterns
+- Personalization data
+
+SECURITY & PRIVACY
+------------------
+
+Authentication:
+- Secure session management
+- Role-based access control (Admin/Student)
+- Multi-factor authentication support
+
+Data Protection:
+- End-to-end encryption for sensitive data
+- GDPR and healthcare compliance
+- Anonymous data collection options
+- Secure file upload and processing
+
+Privacy Features:
+- Configurable privacy settings
+- Anonymous forum participation
+- Secure peer-to-peer communication
+- Data retention policies
+
+DEPLOYMENT INFORMATION
+---------------------
+
+Production Setup:
+- Neon PostgreSQL database
+- Environment variables for API keys
+- CDN for static asset delivery
+- Monitoring and logging systems
+
+Development Environment:
+- Vite for fast development builds
+- Hot module replacement
+- TypeScript compilation
+- ESLint and Prettier configuration
+
+Build Process:
+- Optimized production builds (830KB main bundle)
+- Asset compression and minification
+- Progressive web app capabilities
+- SEO optimization
+
+API INTEGRATIONS
+----------------
+
+OpenAI Services:
+- GPT-5 for conversational AI
+- Content moderation and safety
+- Crisis detection algorithms
+
+External Services:
+- Email notification system
+- SMS alerts for emergencies
+- Video calling infrastructure
+- Payment processing integration
+
+File Processing:
+- PDF document analysis
+- Image upload and optimization
+- Audio file transcription
+- Document text extraction
+
+PERFORMANCE OPTIMIZATIONS
+-------------------------
+
+Frontend:
+- Code splitting and lazy loading
+- Image optimization and compression
+- Bundle size optimization (227KB gzipped)
+- Caching strategies for API requests
+
+Backend:
+- Database query optimization
+- Connection pooling
+- Rate limiting and throttling
+- Memory usage optimization
+
+Monitoring:
+- Error tracking and reporting
+- Performance metrics collection
+- User analytics and insights
+- System health monitoring
+
+USER EXPERIENCE FEATURES
+------------------------
+
+Accessibility:
+- Screen reader compatibility
+- Keyboard navigation support
+- High contrast mode
+- Font size adjustment
+
+Responsive Design:
+- Mobile-first approach
+- Tablet and desktop optimization
+- Touch-friendly interfaces
+- Offline functionality
+
+Personalization:
+- Customizable dashboard
+- Preference-based content
+- Adaptive UI themes
+- Personalized recommendations
+
+CULTURAL CONSIDERATIONS
+-----------------------
+
+Indian Student Focus:
+- Hindi and English language support
+- Cultural sensitivity in content
+- Regional mental health resources
+- Academic stress-specific tools
+
+Stigma Reduction:
+- Anonymous participation options
+- Peer support emphasis
+- Educational awareness campaigns
+- Normalized mental health discussions
+
+Academic Integration:
+- Course and year tracking
+- Institution-based communities
+- Academic stress management
+- Career guidance resources
+
+FUTURE ENHANCEMENTS
+-------------------
+
+Planned Features:
+- Mobile app versions (iOS/Android)
+- Advanced AI personality customization
+- Group therapy session tools
+- Parent/guardian portal access
+
+Technology Upgrades:
+- Enhanced AI capabilities
+- Blockchain for data security
+- IoT device integration
+- Advanced analytics dashboard
+
+Scalability:
+- Multi-institutional deployment
+- International expansion
+- Language localization
+- Regional customization
+
+TECHNICAL SPECIFICATIONS
+------------------------
+
+System Requirements:
+- Node.js 18+
+- PostgreSQL 13+
+- Modern web browser support
+- 2GB RAM minimum for development
+
+Dependencies:
+- React 18.3.1
+- Express 4.21.2
+- Drizzle ORM 0.39.1
+- OpenAI 5.19.1
+- TailwindCSS 3.4.17
+
+File Structure:
+/client - Frontend React application
+/server - Backend Express server
+/shared - Common types and schemas
+/attached_assets - Static files and media
+
+Build Output:
+- Optimized JavaScript bundles
+- Compressed CSS files
+- Optimized image assets
+- Service worker for PWA features
+
+This platform represents a comprehensive solution for mental health support in the Indian higher education ecosystem, combining modern web technologies with culturally sensitive mental health practices.

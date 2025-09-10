@@ -1,0 +1,118 @@
+Excellent question 👌 — because **PHQ-9** and **GAD-7** are **standard screening tools**, but many people confuse them with diagnosis. I’ll explain step by step how to **use them correctly** in your project (like in SIH).
+
+---
+
+# 🧾 1. What are PHQ-9 & GAD-7?
+
+* **PHQ-9 (Patient Health Questionnaire-9):**
+  A 9-question tool for assessing **depression symptoms** over the past **2 weeks**.
+
+* **GAD-7 (Generalized Anxiety Disorder-7):**
+  A 7-question tool for assessing **anxiety symptoms** over the past **2 weeks**.
+
+⚠️ **Important:**
+They are **screening tools, not diagnostic tools.**
+They help you understand **symptom severity** and decide whether referral is needed.
+
+---
+
+# 🧮 2. How They Work (Scoring System)
+
+## 📍 PHQ-9 (0–27 scale)
+
+Each of 9 items is scored:
+
+* 0 = Not at all
+* 1 = Several days
+* 2 = More than half the days
+* 3 = Nearly every day
+
+👉 Add up the 9 responses for a **total score (0–27)**.
+
+**Severity Bands:**
+
+* 0–4 → Minimal / none
+* 5–9 → Mild
+* 10–14 → Moderate
+* 15–19 → Moderately severe
+* 20–27 → Severe
+
+---
+
+## 📍 GAD-7 (0–21 scale)
+
+Each of 7 items is scored the same way (0–3).
+
+👉 Add up the 7 responses for a **total score (0–21)**.
+
+**Severity Bands:**
+
+* 0–4 → Minimal
+* 5–9 → Mild
+* 10–14 → Moderate
+* 15–21 → Severe
+
+---
+
+# ⚙️ 3. How to Use in Your App/System
+
+### Step 1: **Consent & Context**
+
+* Tell the student: “This is a short self-check, not a diagnosis. It will help us understand how you’ve been feeling.”
+
+### Step 2: **Ask Questions**
+
+* Show 9 questions (PHQ-9) or 7 questions (GAD-7).
+* Provide radio buttons (0–3).
+* Use **simple language + regional translations**.
+
+### Step 3: **Calculate Score**
+
+* Sum the responses.
+* Place in severity band.
+
+### Step 4: **Give Feedback (non-medical)**
+
+Example:
+
+* If score = 6 on PHQ-9 → “You may be experiencing mild low mood. Try the relaxation guides in our app. If symptoms persist, consider talking to a counsellor.”
+* If score = 17 on PHQ-9 → “Your score suggests significant distress. We strongly recommend booking a session with the campus counsellor or calling a helpline.”
+
+### Step 5: **Escalation in Crisis**
+
+* If student answers “3 = Nearly every day” to **Q9 of PHQ-9** (about self-harm/suicidal thoughts), the system must **immediately trigger crisis protocol** (show helpline + alert counsellor).
+
+---
+
+# 💡 4. Example (PHQ-9 JSON Storage)
+
+```json
+{
+  "tool": "PHQ9",
+  "answers": [2, 1, 0, 3, 2, 1, 0, 1, 2],
+  "score": 12,
+  "risk_band": "moderate",
+  "timestamp": "2025-09-03T20:10:00Z"
+}
+```
+
+---
+
+# ✅ 5. Best Practices
+
+* Always add a **disclaimer**: *“This is a wellness screening, not a medical diagnosis. Please consult a professional if you are concerned.”*
+* Keep results **confidential**.
+* Provide **next steps**: coping strategies, booking link, helpline.
+* Never show raw “you have depression/anxiety.” Instead: *“You may be experiencing stress that could benefit from support.”*
+
+---
+
+👉 So, in your SIH project:
+
+* Use **PHQ-9 + GAD-7** as **screening + triage tools**.
+* Combine scores with your **AI-guided first-aid chatbot**.
+* Trigger escalation when needed.
+
+---
+
+Would you like me to **give you a ready-made questionnaire format (all PHQ-9 & GAD-7 questions with scoring options)** that you can **directly put in your app/web UI**?

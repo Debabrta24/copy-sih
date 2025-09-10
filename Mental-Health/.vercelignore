@@ -1,0 +1,16 @@
+node_modules
+.env
+.env.local
+.env.production
+.replit
+.git
+*.md
+coverage
+.nyc_output
+__pycache__
+*.pyc
+client/src
+client/tsconfig.json
+client/vite.config.ts
+server/tsconfig.json
+drizzle.config.ts
